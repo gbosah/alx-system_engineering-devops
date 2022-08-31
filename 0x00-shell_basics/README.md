@@ -36,7 +36,5 @@ mkdir -p  - creating a directory with sub-directories an files
 
 ls- map  - lists all the files and directories of the current directory, separated by commas (,).
 
-0 string SCHOOL School data
-!:mime School
-                - Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+0 string SCHOOL School data !:mime School - Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
 And compile with  file -C -m school
